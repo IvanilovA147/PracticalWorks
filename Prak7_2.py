@@ -65,7 +65,6 @@ def view_article_by_id():
             print("Стаття не знайдена.")
 
 def main():
-    create_database()
     while True:
         print("Меню:")
         print("1. Додати статтю")
