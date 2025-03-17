@@ -1,5 +1,4 @@
 import sqlite3
-import datetime
 
 def create_database():
     with sqlite3.connect("articles.db") as conn:
